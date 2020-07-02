@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-top::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.header-top-logo {
+    float: left;
+    width: 20%;
+}
+
+.header-top {
+    line-height: 60px;
+}
+
+.header-top-nav-left {
+    float: left;
+    width: 50%;
+}
+
+.menu-inline {
+    list-style: none;
+}
+
+.header-top li {
+    margin: 0px 10px;
+}
+
+.menu-inline li {
+    display: inline-block;
+}
+
+.header-top-nav-right {
+    float: left;
+    width: 30%;
+    text-align: right;
+}
