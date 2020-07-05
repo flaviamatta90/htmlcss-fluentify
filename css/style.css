@@ -46,12 +46,14 @@ header{
 .header-top-logo {
     float: left;
     width: 10%;
+    padding-top: 5px;
 }
 
 .header-top-nav-left {
     float: left;
     width: 50%;
     margin-bottom: 50px;
+    text-align: left;
 }
 
 .header-top-nav-right {
@@ -80,24 +82,21 @@ header{
 
 .banner h1{
   color: #fff;
-  font-size: 35px;
-  width: 30%;
+  font-size: 40px;
+  width: 35%;
 }
 
 .login{
-  text-align: center;
-  font-size: 16px;
   margin: 4px 2px;
   padding: 5px 8px;
   border-radius: 5px;
   background-color: #0c325a;
   color: #ffffff;
   border: 2px solid #ffffff;
+  font-family: 'Roboto', sans-serif;
 }
 
 button{
-  text-align: center;
-  font-size: 16px;
   margin: 4px 2px;
   border: none;
   color: white;
@@ -105,13 +104,13 @@ button{
   border-radius: 5px;
   background-color: #7CBB02;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* /header  */
 
 /* section */
 section{
-  /* height: 100px; */
   background-color: lightgrey;
 }
 
@@ -130,10 +129,6 @@ section{
 }
 /* /section */
 
-/* main */
-/* main{
-  margin: 1% 0;
-} */
 
 main::after{
   content: "";
@@ -153,12 +148,6 @@ main::after{
   padding-top: 20px;
 }
 
-.img-aside-pc{
-  height: 230px;
-  width: 180px;
-  margin: auto;
-  padding-top: 20px;
-}
 
 .title{
   color: #7CBB02;
@@ -180,7 +169,100 @@ p{
   color: grey;
   font-size: 18px;
   margin: 0 30px;
+
 }
 
+/* /main */
 
-/* main */
+hr{
+  border-bottom: 1px solid lightgrey;
+  margin: 30px 20px;
+}
+
+/* nav */
+nav::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col-img{
+  float: left;
+  width: 50%;
+  margin: auto;
+}
+
+.img-aside-down{
+  width: 60%;
+  padding: 30px 0;
+}
+
+.col-down{
+  float: left;
+  width: 50%;
+}
+
+.scopri{
+  width: 80%;
+  color: #7CBB02;
+  font-size: 20px;
+  text-align: left;
+  padding: 30px 0;
+}
+
+.scopri p{
+  width: 70%;
+  text-align: left;
+  line-height: 30px;
+  color: grey;
+  font-size: 18px;
+  margin:20px 0;
+}
+
+.scopri a{
+  text-decoration: none;
+  color: #5889bd;
+}
+
+/* /nav */
+
+/* footer */
+footer{
+  background-color: #d3d3d3;
+}
+
+.last-section::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.left-footer{
+  float: left;
+  width: 50%;
+  padding:30px 0;
+}
+
+.right-footer{
+  float: left;
+  width: 50%;
+  padding:30px 0;
+}
+
+.seleziona{
+  border-width: 0px 0px 0px 0px;
+  background-color: #d3d3d3;
+  color: grey;
+}
+
+.last-button{
+  margin: 10px 22%;
+  border: none;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 5px;
+  background-color: #7CBB02;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+/* /footer */
